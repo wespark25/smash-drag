@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Create a Tier List</title>
+    <link rel = "stylesheet" type = "text/css" href = "tierListPage.css" />
+    <link rel = "stylesheet" type="text/css" href = "navBar.css" />
+	<script src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+	<script src="jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+        <script> 
+            $(document).ready(function () {
+                $("#smashPage").addClass("active");
+            });
+        </script>
+    <script>
+    $(document).ready(function(){
+        $("#jQueryBtn").click(function(){
+            $("#jQueryBtn").load("demo_test.txt");
+      
+        });
+    });
+
+		$(function() {
+            $(".character").draggable({
+                snap: true,
+                snapMode: "outer"
+            });
+            $(".tier").draggable({
+                snap: true,
+                snapMode: "outer",
+                disabled: true
+            });
+		});
+    </script>
+	<script>
+
+    </script>
+</head>
+    
+<body>
+    <script type="text/javascript" src="navBar.js"></script>
+    <div class="roster">
+        <div id="character1" class="Tile character"></div>
+        <div id="character2" class="Tile character"></div>
+        <div id="character3" class="Tile character"></div>
+        <div id="character4" class="Tile character"></div>
+        <div id="character5" class="Tile character"></div>
+        <div id="character6" class="Tile character"></div>
+        <div id="character7" class="Tile character"></div>
+        <div id="character8" class="Tile character"></div>
+        <div id="character9" class="Tile character"></div>
+        <div id="character10" class="Tile character"></div>
+        <div id="character11" class="Tile character"></div>
+        <div id="character12" class="Tile character"></div>
+        <div id="character13" class="Tile character"></div>
+        <div id="character14" class="Tile character"></div>
+        <div id="character15" class="Tile character"></div>
+        <div id="character16" class="Tile character"></div>
+        <div id="character17" class="Tile character"></div>
+        <div id="character18" class="Tile character"></div>
+        <div id="character19" class="Tile character"></div>
+        <div id="character20" class="Tile character"></div>
+        <div id="character21" class="Tile character"></div>
+        <div id="character22" class="Tile character"></div>
+        <div id="character23" class="Tile character"></div>
+        <div id="character24" class="Tile character"></div>
+        <div id="character25" class="Tile character"></div>
+        <div id="character26" class="Tile character"></div>
+    </div>
+    
+    <div class="tierList">
+        <div id="tile0" class="Tile tier"><p>S Tier</p></div>
+        <div id="tile1" class="Tile tier"><p>A Tier</p></div>
+        <div id="tile2" class="Tile tier"><p>B Tier</p></div>
+        <div id="tile3" class="Tile tier"><p>C Tier</p></div>
+        <div id="tile4" class="Tile tier"><p>D Tier</p></div>
+    </div>
+
+</body>
+</html>

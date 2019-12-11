@@ -1,0 +1,185 @@
+/*Page Sections*/
+body {
+    background-image: url("smashBros.jpeg");
+    width: 100%;
+    display: inline-block;
+    margin: 8px;
+}
+
+
+.tierList {
+    padding-top: 100px;
+    width: 780px;
+    display: inherit;
+    position: absolute;
+    top: 40px;
+    left: 250px;
+    z-index: -10;
+}    
+
+.roster {
+    height: 700px;
+    width: 164px;
+    
+    border: solid black 2px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0 0;
+    margin-top: 100px;
+    background-color: silver;
+    position: absolute;
+    top: 100px;
+    
+    margin-left: 20px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+
+/*Tiles*/
+.Tile {
+		width: 50px;
+        border: solid black 1px;
+        border-radius: 10px;
+	}
+    
+.tier {
+    margin-top: 10px;
+    height: 50px;
+    width: 800px;
+    margin: 15px;
+    margin-bottom: 120px;
+    font-size: 20px;
+}
+
+.character {
+    height: 50px;
+    display: inline-block;
+    background-color: white;
+}
+
+p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/*Tier Tiles*/
+#tile0 {
+    background-color: aqua;
+}
+	#tile1 {
+		background-color: lightgreen;
+	}
+	#tile2 {
+		background-color: lightsalmon;
+	}
+	#tile3 {
+		background-color: lightpink;
+	}
+	#tile4 {
+		background-color: lightskyblue;
+	}
+
+/* Clicked Characeter*/
+.dragged {
+    float: none;
+}
+
+/*Roster Tiles*/
+	#character1 {
+		background-image: url("Characters/mario.jpg");
+        background-size: 100% 100%;
+	}
+	#character2 {
+        background-image: url("Characters/DK.jpg");
+        background-size: 100% 100%;	}
+    #character3 {
+        background-image: url("Characters/link.jpg");
+        background-size: 100% 100%;	}
+    #character4 {
+        background-image: url("Characters/samus.jpg");
+        background-size: 100% 100%;	}
+    #character5 {
+        background-image: url("Characters/yoshi.jpg");
+        background-size: 100% 100%;	}
+    
+    #character6 {
+background-image: url("Characters/kirby.jpg");
+        background-size: 100% 100%; }
+    #character7 {
+        background-image: url("Characters/ness.png");
+        background-size: 100% 100%;	}
+    #character8 {
+        background-image: url("Characters/fox.png");
+        background-size: 100% 100%;	}
+    #character9 {
+        background-image: url("Characters/luigi.png");
+        background-size: 100% 100%;	}
+    #character10 {
+        background-image: url("Characters/pikachu.png");
+        background-size: 100% 100%; }
+    #character11 {
+        background-image: url("Characters/captainFalcon.png");
+        background-size: 100% 100%; }
+    #character12 {
+        background-image: url("Characters/jigglypuff.png");
+        background-size: 100% 100%; }
+#character13 {
+        background-image: url("Characters/peach.png");
+        background-size: 100% 100%; }
+#character14 {
+        background-image: url("Characters/dr.mario.png");
+        background-size: 100% 100%; }
+#character15 {
+        background-image: url("Characters/bowser.png");
+        background-size: 100% 100%; }
+#character16 {
+        background-image: url("Characters/zelda.png");
+        background-size: 100% 100%; }
+#character17 {
+        background-image: url("Characters/sheik.png");
+        background-size: 100% 100%; }
+#character18 {
+        background-image: url("Characters/youngLink.png");
+        background-size: 100% 100%; }
+#character19 {
+        background-image: url("Characters/ganondorf.png");
+        background-size: 100% 100%; }
+#character20 {
+        background-image: url("Characters/falco.png");
+        background-size: 100% 100%; }
+#character21 {
+        background-image: url("Characters/pichu.png");
+        background-size: 100% 100%; }
+#character22 {
+        background-image: url("Characters/mewtwo.png");
+        background-size: 100% 100%; }
+#character23 {
+        background-image: url("Characters/iceClimbers.png");
+        background-size: 100% 100%; }
+#character24 {
+        background-image: url("Characters/marth.png");
+        background-size: 100% 100%; }
+#character25 {
+        background-image: url("Characters/roy.png");
+        background-size: 100% 100%; }
+#character26 {
+        background-image: url("Characters/mr.gameAndWatch.png");
+        background-size: 100% 100%; }
+}
+
+    
+.ajaxDiv {
+    bottom: 10px;
+    left: 300px;
+    background: white;
+    width: 300px;
+}
+#content {
+    
+}
